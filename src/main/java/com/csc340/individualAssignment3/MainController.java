@@ -40,9 +40,4 @@ public class MainController {
     public String contactPage(){
         return "contact";
     }
-
-    @GetMapping("/error")
-    public String errorPage(){
-        return "error";
-    }
 }
